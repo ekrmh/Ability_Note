@@ -1,0 +1,43 @@
+@import '../common/css/basic.scss';
+
+.contentBox{
+  flex-direction: column;
+
+}
+
+.address_title{
+  flex: 1;
+  font-size: dpConvert(12);
+  margin-left: dpConvert(30);
+  color: rgba(#000000, 0.6);
+  margin-bottom: dpConvert(2);
+}
+
+.upAddress{
+  font-size: dpConvert(15);
+  margin-left: dpConvert(8);
+  color: rgba(#000000, 0.9);
+}
+
+.upAddressBox{
+  margin-bottom: dpConvert(6);
+}
+
+.offAddress{
+  font-size: dpConvert(18);
+  margin-left: dpConvert(8);
+  color: rgba(#000000, 0.6);
+}
+
+.offAddressBox{
+  margin-bottom: dpConvert(24);
+}
+
+.createTime{
+  position: absolute;
+  font-size: dpConvert(8);
+  top: 0px;
+  right: dpConvert(8); 
+  background-color: #ffffff;
+  color: rgba(#000000, 0.6);
+}

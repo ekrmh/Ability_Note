@@ -1,0 +1,49 @@
+{
+  "package": "com.abilitygallery.notes",
+  "name": "Notes",
+  "versionName": "1.0.1",
+  "versionCode": 1,
+  "icon": "/Common/logo.png",
+  "minPlatformVersion": 1000,
+  "features": [
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.fetch"
+    }
+  ],
+  "permissions": [
+    {
+      "origin": "*"
+    }
+  ],
+  "config": {},
+  "router": {
+    "entry": "addressSelect",
+    "pages": {
+      "addressSelect": {
+        "component": "addressSelect",
+        "path": "/addressSelect"
+      }
+    }
+  },
+  "widgets": [
+    {
+      "name": "addressSelect",
+      "id": "addressSelect",
+      "path": "/addressSelect",
+      "component": "addressSelect",
+      "minPlatformVersion": 1000,
+      "targetManufactorys": [
+        "huawei"
+      ],
+      "params": [],
+      "uses-permission": []
+    }
+  ],
+  "debugable": true
+}
